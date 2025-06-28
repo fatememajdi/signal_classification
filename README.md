@@ -12,12 +12,12 @@ The project supports full preprocessing, training (with random hyperparameter se
 ## 📁 Project Structure
 
 ```
-CNN-Project/
+signal_classification/
 ├── data/                   # Raw and processed signal data
 │   ├── raw/
-│       ├── Normal Condition/   # Healthy signals (.txt)
-│       └── Looseness/          # Faulty signals (.txt)
-│   └── Looseness/          # Faulty signals (.txt)
+│   │    ├── Normal Condition/   # Healthy signals (.txt)
+│   │    └── Looseness/          # Faulty signals (.txt)
+│   └── processed/          # Processed signals (.txt)
 ├── models/                # Trained models (.h5 files)
 ├── notebooks/             # Jupyter notebooks for training and evaluation
 ├── src/                   # Source code modules
@@ -54,8 +54,8 @@ pip install -r requirements.txt
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/CNN-Project.git
-cd CNN-Project
+git clone https://github.com/fatememajdi/signal_classification.git
+cd signal_classification
 ```
 
 2. **Install dependencies:**
@@ -124,21 +124,3 @@ pip install -r requirements.txt
 - Monitor data quality over time to avoid model drift.
 
 ---
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♀️ Author
-
-**Fateme Majdi**  
-Master’s student – Artificial Intelligence & Robotics  
-Shahid Bahonar University of Kerman
-
----
-
-## 🌟 Acknowledgments
-
-Special thanks to our mentors and contributors for guidance throughout this project.
